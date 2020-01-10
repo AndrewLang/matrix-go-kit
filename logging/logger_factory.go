@@ -45,7 +45,7 @@ func (factory *LoggerFactory) ConfigureFromFile(file string) *LoggerFactory {
 	if fileExists(file) {
 		content := readAllText(file)
 		config := NewLogTargetConfigurations()
-		config.FromJSON(content)		
+		config.FromJSON(content)
 		factory.Configure(config)
 	}
 	return factory
