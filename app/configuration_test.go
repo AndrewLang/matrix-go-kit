@@ -25,6 +25,7 @@ func TestToJSON(t *testing.T) {
 func TestFromJSON(t *testing.T) {
 	config := NewConfiguration()
 
+	assert.NotNil(t, config)
 }
 
 func TestToFromFile(t *testing.T) {

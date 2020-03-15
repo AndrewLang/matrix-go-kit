@@ -1,6 +1,7 @@
 package app
 
 import (
+	"github.com/andrewlang/matrix-go-kit/io"
 	logging "github.com/andrewlang/matrix-go-logging"
 )
 
@@ -10,7 +11,7 @@ func CreateLogger(name string) logging.ILogger {
 		If there is logging configuration then load it from file, otherwise use default logging configuration
 	*/
 	factory := logging.NewLoggerFactory()
-	configFile := NewFile(LoggingConfigFile)
+	configFile := io.NewFile(LoggingConfigFile)
 
 	if configFile.Exists() {
 		factory.ConfigureFromFile(LoggingConfigFile)
