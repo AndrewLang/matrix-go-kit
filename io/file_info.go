@@ -1,7 +1,9 @@
 package io
 
-import (
+import (	
+	"os"
 	"path/filepath"
+	"strings"
 )
 
 // FileInfo Provides properties and instance methods for the creation, copying, deletion, moving, and opening of file
@@ -49,7 +51,7 @@ func (info *FileInfo) DirNameExtension() (string, string, string) {
 
 // Directory get parent directory of the file
 func (info *FileInfo) Directory() string {
-	dir, file := filepath.Split(info.fileName)	
+	dir, _ := filepath.Split(info.fileName)
 	return dir
 }
 

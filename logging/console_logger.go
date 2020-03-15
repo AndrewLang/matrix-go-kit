@@ -2,9 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"os"
-
-	"golang.org/x/sys/windows"
+	// "golang.org/x/sys/windows"
 )
 
 // ConsoleLogger log to console
@@ -28,15 +26,7 @@ func NewConsoleLogger(name string) ILogger {
 		layoutRepository: NewLayoutRepository(),
 	}
 
-	/*
-	  set console mode to enable virtual terminal processing,
-	  otherwise it may not work on some windows
-	*/
-	stdout := windows.Handle(os.Stdout.Fd())
-	var originalMode uint32
-
-	windows.GetConsoleMode(stdout, &originalMode)
-	windows.SetConsoleMode(stdout, originalMode|windows.ENABLE_VIRTUAL_TERMINAL_PROCESSING)
+	logger.initializeConsole()
 
 	return logger
 }
