@@ -6,6 +6,8 @@ github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315182616-c91f12e50126 h1:cbn
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315182616-c91f12e50126/go.mod h1:8fstHXK5f+3XKg8pkGRHuuFwbkZZ+Xv8aPipPQEW3c4=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315183212-27635eba19f8 h1:6zMwerboDQZJ2lASUXM7yWHho0ve6nSzeAMgu1AGpJw=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315183212-27635eba19f8/go.mod h1:8fstHXK5f+3XKg8pkGRHuuFwbkZZ+Xv8aPipPQEW3c4=
+github.com/andrewlang/matrix-go-kit/io v0.0.0-20200316003448-5f7f696e2133 h1:g8vpTHY+t1/k/AFLpXgDtc8QYUbu+82Bs/wo3ijtvys=
+github.com/andrewlang/matrix-go-kit/io v0.0.0-20200316003448-5f7f696e2133/go.mod h1:8fstHXK5f+3XKg8pkGRHuuFwbkZZ+Xv8aPipPQEW3c4=
 github.com/andrewlang/matrix-go-kit/logging v0.0.0-20200315183212-27635eba19f8 h1:hxqWuBc8wXskLkYEtNYk/rgg4fFTgvSuQ3Od+KHHwA0=
 github.com/andrewlang/matrix-go-kit/logging v0.0.0-20200315183212-27635eba19f8/go.mod h1:GWKsD6sArjg7iE1ySLpN4p2udx9GQLoyHtMcRQPBByo=
 github.com/andrewlang/matrix-go-logging v0.0.0-20200214154232-ff85dc178a21 h1:mAgnZKPF3i99JY8BFkzHcq8b7vRYJXQ/fIx2Uu/Eias=
