@@ -3,7 +3,7 @@ package app
 import (
 	"encoding/json"
 
-	matrix "github.com/andrewlang/matrix-go-kit/io"
+	io "github.com/andrewlang/matrix-go-kit/io"
 )
 
 // Configuration configuration model for test station agent
@@ -36,13 +36,13 @@ func (config *Configuration) FromJSON(jsonContent string) *Configuration {
 // ToFile save configuration to file
 func (config *Configuration) ToFile(filePath string) *Configuration {
 	content := config.ToJSON()
-	matrix.NewFile(filePath).Write(content)
+	io.NewFile(filePath).Write(content)
 	return config
 }
 
 // FromFile load configuration from file
 func (config *Configuration) FromFile(filePath string) *Configuration {
-	file := matrix.NewFile(filePath)
+	file := io.NewFile(filePath)
 
 	if file.Exists() {
 		content := file.ReadAll()
