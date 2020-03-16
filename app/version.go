@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	matrix "github.com/andrewlang/matrix-go-kit/logging"
+	logging "github.com/andrewlang/matrix-go-kit/logging"
 )
 
 const (
@@ -33,7 +33,7 @@ type Version struct {
 	Build            string
 	raw              string
 	regExpression    *regexp.Regexp
-	logger           matrix.ILogger
+	logger           logging.ILogger
 }
 
 // NewVersion create new instance
