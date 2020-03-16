@@ -1,8 +1,8 @@
 package matrix
 
 import (
-	matrix "github.com/andrewlang/matrix-go-kit/io"
-	"github.com/andrewlang/matrix-go-kit/logging"
+	io "github.com/andrewlang/matrix-go-kit/io"
+	logging "github.com/andrewlang/matrix-go-kit/logging"
 )
 
 // CreateLogger create logger with given name
@@ -11,14 +11,16 @@ func CreateLogger(name string) logging.ILogger {
 		If there is logging configuration then load it from file, otherwise use default logging configuration
 	*/
 	factory := logging.NewLoggerFactory()
-	configFile := matrix.NewFile(LoggingConfigFile)
+	configFile := io.NewFile(LoggingConfigFile)
 
 	if configFile.Exists() {
 		factory.ConfigureFromFile(LoggingConfigFile)
 	} else {
 		config := logging.NewLogTargetConfigurations()
 
-		consoleTarget := logging.NewLogTargetConfiguration("Console", logging.ConsoleLoggerName, []string{logging.Time, logging.Level, logging.Name, logging.Indent, logging.Message})
+		consoleTarget := logging.NewLogTargetConfiguration("Console",
+			logging.ConsoleLoggerName,
+			[]string{logging.Time, logging.Level, logging.Name, logging.Indent, logging.Message})
 		config.AddTarget(consoleTarget)
 
 		// do not write to log file for now
