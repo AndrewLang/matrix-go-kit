@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	logging "github.com/andrewlang/matrix-go-logging"
+	logging "github.com/andrewlang/matrix-go-kit/logging"
 )
 
 const (
