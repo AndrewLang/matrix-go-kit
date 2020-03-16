@@ -1,4 +1,4 @@
-package app
+package matrix
 
 const (
 	// Empty empty string

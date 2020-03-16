@@ -1,4 +1,4 @@
-package app
+package matrix
 
 import (
 	"encoding/json"

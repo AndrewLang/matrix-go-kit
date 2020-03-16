@@ -1,4 +1,4 @@
-package app
+package matrix
 
 type StartJupiterAction struct {
 }

@@ -2,6 +2,10 @@ github.com/andrewlang/matrix-go-kit/app v0.0.0-20200315182616-c91f12e50126 h1:fi
 github.com/andrewlang/matrix-go-kit/app v0.0.0-20200315182616-c91f12e50126/go.mod h1:8abmY7lkWTlEY8dDIZ8iCK1oeqHEwtRwl0O5vwuNs88=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315182616-c91f12e50126 h1:cbnH3m5VRvMbpzyGEpyQ/UaVSeda8IG35jBcfMzPAR4=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315182616-c91f12e50126/go.mod h1:8fstHXK5f+3XKg8pkGRHuuFwbkZZ+Xv8aPipPQEW3c4=
+github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315183212-27635eba19f8 h1:6zMwerboDQZJ2lASUXM7yWHho0ve6nSzeAMgu1AGpJw=
+github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315183212-27635eba19f8/go.mod h1:8fstHXK5f+3XKg8pkGRHuuFwbkZZ+Xv8aPipPQEW3c4=
+github.com/andrewlang/matrix-go-kit/logging v0.0.0-20200315183212-27635eba19f8 h1:hxqWuBc8wXskLkYEtNYk/rgg4fFTgvSuQ3Od+KHHwA0=
+github.com/andrewlang/matrix-go-kit/logging v0.0.0-20200315183212-27635eba19f8/go.mod h1:GWKsD6sArjg7iE1ySLpN4p2udx9GQLoyHtMcRQPBByo=
 github.com/andrewlang/matrix-go-logging v0.0.0-20200214154232-ff85dc178a21 h1:mAgnZKPF3i99JY8BFkzHcq8b7vRYJXQ/fIx2Uu/Eias=
 github.com/andrewlang/matrix-go-logging v0.0.0-20200214154232-ff85dc178a21/go.mod h1:eJevhFsNTLRGsfUjJOIo7QCtyBt2kReynNGPIFN6E+g=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
@@ -17,6 +21,8 @@ golang.org/x/sys v0.0.0-20200107162124-548cf772de50 h1:YvQ10rzcqWXLlJZ3XCUoO25sa
 golang.org/x/sys v0.0.0-20200107162124-548cf772de50/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20200124204421-9fbb57f87de9 h1:1/DFK4b7JH8DmkqhUk48onnSfrPzImPoVxuomtbT2nk=
 golang.org/x/sys v0.0.0-20200124204421-9fbb57f87de9/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527 h1:uYVVQ9WP/Ds2ROhcaGPeIdVq0RIXVLwsHlnvJ+cT1So=
+golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v2 v2.2.2 h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=

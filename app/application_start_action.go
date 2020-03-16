@@ -1,4 +1,4 @@
-package app
+package matrix
 
 // IApplicationStartupAction represent a startup action of Application
 type IApplicationStartupAction interface {

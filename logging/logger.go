@@ -1,4 +1,4 @@
-package logging
+package matrix
 
 // Object represent an object
 type Object interface{}

@@ -1,11 +1,11 @@
-package app
+package matrix
 
 import (
 	"reflect"
 	"sort"
 	"sync"
 
-	logging "github.com/andrewlang/matrix-go-logging"
+	logging "github.com/andrewlang/matrix-go-kit/logging"
 )
 
 // Application application

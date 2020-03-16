@@ -1,8 +1,9 @@
-package logging
+package matrix
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func createComposeLogger() ComposeLogger {

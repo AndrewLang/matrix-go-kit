@@ -1,4 +1,4 @@
-package io
+package matrix
 
 import (
 	"io/ioutil"

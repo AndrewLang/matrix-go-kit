@@ -1,7 +1,7 @@
-package app
+package matrix
 
 import (
-	logging "github.com/andrewlang/matrix-go-logging"
+	logging "github.com/andrewlang/matrix-go-kit/logging"
 )
 
 func createTestLogger(name string) logging.ILogger {
