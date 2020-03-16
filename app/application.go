@@ -5,14 +5,14 @@ import (
 	"sort"
 	"sync"
 
-	logging "github.com/andrewlang/matrix-go-kit/logging"
+	log "github.com/andrewlang/matrix-go-kit/log"
 )
 
 // Application application
 type Application struct {
 	Context    *ApplicationContext
 	Actions    []IApplicationStartupAction
-	logger     logging.ILogger
+	logger     log.ILogger
 	exitSignal *sync.WaitGroup
 	allowWait  bool
 }

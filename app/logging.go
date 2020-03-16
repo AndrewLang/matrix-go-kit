@@ -2,29 +2,29 @@ package app
 
 import (
 	io "github.com/andrewlang/matrix-go-kit/io"
-	logging "github.com/andrewlang/matrix-go-kit/logging"
+	log "github.com/andrewlang/matrix-go-kit/log"
 )
 
 // CreateLogger create logger with given name
-func CreateLogger(name string) logging.ILogger {
+func CreateLogger(name string) log.ILogger {
 	/*
-		If there is logging configuration then load it from file, otherwise use default logging configuration
+		If there is log configuration then load it from file, otherwise use default log configuration
 	*/
-	factory := logging.NewLoggerFactory()
+	factory := log.NewLoggerFactory()
 	configFile := io.NewFile(LoggingConfigFile)
 
 	if configFile.Exists() {
 		factory.ConfigureFromFile(LoggingConfigFile)
 	} else {
-		config := logging.NewLogTargetConfigurations()
+		config := log.NewLogTargetConfigurations()
 
-		consoleTarget := logging.NewLogTargetConfiguration("Console",
-			logging.ConsoleLoggerName,
-			[]string{logging.Time, logging.Level, logging.Name, logging.Indent, logging.Message})
+		consoleTarget := log.NewLogTargetConfiguration("Console",
+			log.ConsoleLoggerName,
+			[]string{log.Time, log.Level, log.Name, log.Indent, log.Message})
 		config.AddTarget(consoleTarget)
 
 		// do not write to log file for now
-		// fileTarget := logging.NewLogTargetConfiguration("File", logging.FileLoggerName, []string{logging.Time, logging.Level, logging.Name, logging.Indent, logging.Message})
+		// fileTarget := log.NewLogTargetConfiguration("File", log.FileLoggerName, []string{log.Time, log.Level, log.Name, log.Indent, log.Message})
 		// fileTarget.Configuration.FileName = "log.txt"
 		// config.AddTarget(fileTarget)
 
