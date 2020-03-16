@@ -1,4 +1,4 @@
-package logging
+package log
 
 // LoggerCreator create logger instance
 type LoggerCreator func(name string) ILogger

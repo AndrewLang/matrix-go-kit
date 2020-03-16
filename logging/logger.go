@@ -1,4 +1,4 @@
-package logging
+package log
 
 // Object represent an object
 type Object interface{}
