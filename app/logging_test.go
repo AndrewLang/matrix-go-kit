@@ -3,7 +3,7 @@ package app
 import (
 	"testing"
 
-	"github.com/andrewlang/matrix-go-kit/io"
+	io "github.com/andrewlang/matrix-go-kit/io"
 	"github.com/stretchr/testify/assert"
 )
 
