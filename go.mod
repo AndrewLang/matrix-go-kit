@@ -3,7 +3,6 @@ module matrix-go-kit
 go 1.13
 
 require (
-	github.com/andrewlang/matrix-go-kit/app v0.0.0-20200316003448-5f7f696e2133 // indirect
 	github.com/andrewlang/matrix-go-kit/io v0.0.0-20200316003448-5f7f696e2133
 	github.com/andrewlang/matrix-go-kit/logging v0.0.0-20200316003448-5f7f696e2133
 	github.com/stretchr/testify v1.5.1
