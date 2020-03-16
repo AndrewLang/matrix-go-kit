@@ -1,5 +1,7 @@
 github.com/andrewlang/matrix-go-kit/app v0.0.0-20200315182616-c91f12e50126 h1:fiNiQGPP4wQpX3663Fd45U2oHaPzcb7gNKd2t6ENxgs=
 github.com/andrewlang/matrix-go-kit/app v0.0.0-20200315182616-c91f12e50126/go.mod h1:8abmY7lkWTlEY8dDIZ8iCK1oeqHEwtRwl0O5vwuNs88=
+github.com/andrewlang/matrix-go-kit/app v0.0.0-20200316003448-5f7f696e2133 h1:K+RQnklmti524YcxSLiPufQ2i1LeCFS5ITjyN6eOV84=
+github.com/andrewlang/matrix-go-kit/app v0.0.0-20200316003448-5f7f696e2133/go.mod h1:cEemL3aC9/fjOtyd6qd27kspwMW7cVoqxUdoEnnhK3w=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315182616-c91f12e50126 h1:cbnH3m5VRvMbpzyGEpyQ/UaVSeda8IG35jBcfMzPAR4=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315182616-c91f12e50126/go.mod h1:8fstHXK5f+3XKg8pkGRHuuFwbkZZ+Xv8aPipPQEW3c4=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200315183212-27635eba19f8 h1:6zMwerboDQZJ2lASUXM7yWHho0ve6nSzeAMgu1AGpJw=
