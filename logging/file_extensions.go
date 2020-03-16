@@ -1,4 +1,4 @@
-package matrix
+package logging
 
 import (
 	"io/ioutil"

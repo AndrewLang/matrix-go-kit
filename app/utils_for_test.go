@@ -1,4 +1,4 @@
-package matrix
+package app
 
 import (
 	logging "github.com/andrewlang/matrix-go-kit/logging"

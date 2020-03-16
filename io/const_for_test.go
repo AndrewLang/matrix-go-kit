@@ -1,4 +1,4 @@
-package matrix
+package io
 
 const (
 	TestFileName    = "starwar.txt"

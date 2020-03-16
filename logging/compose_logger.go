@@ -1,4 +1,4 @@
-package matrix
+package logging
 
 // ComposeLogger composed logger for internal use
 type ComposeLogger struct {

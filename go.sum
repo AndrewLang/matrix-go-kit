@@ -1,4 +1,4 @@
-github.com/andrewlang/matrix-go-kit v0.0.0-20200316045517-d3553987422d h1:BuMh6CfDzUHc4ZFLvRxXJMPvqsgHmzVTqDIeKaiwmMw=
+github.com/andrewlang/matrix-go-kit v0.0.0-20200316052319-d72132fd180b h1:sQzXx8TLT1EA5UUtFMiVlMuGhHVZyt5b22X8XuI6Jqc=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200316003448-5f7f696e2133 h1:g8vpTHY+t1/k/AFLpXgDtc8QYUbu+82Bs/wo3ijtvys=
 github.com/andrewlang/matrix-go-kit/io v0.0.0-20200316003448-5f7f696e2133/go.mod h1:8fstHXK5f+3XKg8pkGRHuuFwbkZZ+Xv8aPipPQEW3c4=
 github.com/andrewlang/matrix-go-kit/logging v0.0.0-20200316003448-5f7f696e2133 h1:j8oKak31XoslPdRuEVoAoc0aCGegMIOOIlCkp2168M8=
@@ -12,7 +12,6 @@ github.com/stretchr/testify v1.5.1 h1:nOGnQDM7FYENwehXlg/kFVnos3rEvtKTjRvOWSzb6H
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
 golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527 h1:uYVVQ9WP/Ds2ROhcaGPeIdVq0RIXVLwsHlnvJ+cT1So=
 golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
-gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v2 v2.2.2 h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=

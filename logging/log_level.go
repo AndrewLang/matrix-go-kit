@@ -1,4 +1,4 @@
-package matrix
+package logging
 
 var (
 	// LevelAll all

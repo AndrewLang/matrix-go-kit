@@ -1,4 +1,4 @@
-package matrix
+package logging
 
 // LogMessage message for logging
 type LogMessage struct {

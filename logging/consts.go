@@ -1,4 +1,4 @@
-package matrix
+package logging
 
 // ColorInfo descrble console color
 type ColorInfo struct {

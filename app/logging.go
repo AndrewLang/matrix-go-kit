@@ -1,4 +1,4 @@
-package matrix
+package app
 
 import (
 	io "github.com/andrewlang/matrix-go-kit/io"
